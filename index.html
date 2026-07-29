@@ -11,15 +11,17 @@
 <header>
     <h1>Catálogo de Videojuegos</h1>
     <p>Explora algunos de los videojuegos más populares.</p>
-    <hr>
+    <nav>
+        <a href="#accion">Acción</a> |
+        <a href="#aventura">Aventura</a> |
+        <a href="#rpg">RPG</a> |
+        <a href="#formulario">Sugerencias</a>
+
+    </nav>
+
 </header>
 
-<nav>
-    <a href="#accion">Acción</a> |
-    <a href="#aventura">Aventura</a> |
-    <a href="#rpg">RPG</a> |
-    <a href="#formulario">Sugerencias</a>
-</nav>
+
 
 <hr>
 
@@ -80,7 +82,7 @@
 
     <article>
         <h3>Valorant</h3>
-        <img src="image\Valorant_cover.jpg"
+        <img src="image\Valorant_cover.jpg  " id="valorant"
         width="180" alt="Valorant">
         <p>Shooter táctico en primera persona desarrollado por Riot Games.</p>
     </article>
@@ -93,7 +95,7 @@
 
     <article>
         <h3>Hollow Knight</h3>
-        <img src="image\hk art.jpg"
+        <img src="image\hk art.jpg" id="hk"
         width="180" alt="Hollow Knight">
         <p>Metroidvania con exploración, combate y una gran historia.</p>
     </article>
@@ -106,7 +108,7 @@
 
     <article>
         <h3>The Witcher 3</h3>
-        <img src="image\Witcher_3_cover_art.jpg"
+        <img src="image\Witcher_3_cover_art.jpg" id="witcher3"
         width="180" alt="The Witcher 3">
         <p>Uno de los RPG más reconocidos por su historia y mundo abierto.</p>
     </article>
@@ -173,7 +175,7 @@
 
         <label>Género:</label><br>
 
-        <select>
+        <select name="genero" id="genero">
             <option>Acción</option>
             <option>Aventura</option>
             <option>RPG</option>
@@ -188,7 +190,7 @@
 
         <br><br>
 
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" id="submit-button">
 
     </form>
 </section>
